@@ -1,9 +1,8 @@
 let baseUrl = ''
-console.log("F-1",process.env )
-// if(process.env.NODE_ENV === 'production')
+if(process.env.REACT_APP_ENVIRONMENT === 'production')
 baseUrl = 'https://quizapp-backend-pg.herokuapp.com/api/';
-// else
-// baseUrl = 'http://localhost:7888/api/';
+else
+baseUrl = 'http://localhost:7888/api/';
 
 export const APIEndPoints = {
       login: `${baseUrl}signin`,
