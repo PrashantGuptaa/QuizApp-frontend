@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden !important;
+}
+.quizForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  height: 95vh;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 0.7%;
+  border-radius: 10px;
+}
+.option {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+}
+
+.eachOption {
+  width: 40%;
+  margin-top: 15px !important;
+}
+.select{
+   width: 40%;
+  margin-top: 25px !important;
+}
+.cardContainer {
+  margin: 25px 30px 0px 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 80%;
+}
+
+.card {
+  height: 450px;
+  width: 20%;
+  margin: 10px 30px 80px 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 2px black;
+}
+
+.image {
+  height: 60%;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+
+.questionHeading {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  padding: 20px;
+  color: white;
+  text-shadow: 3px 3px 8px red;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-bottom-right-radius: 600px 120px;
+  border-bottom-left-radius: 600px 120px;
+  background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navigationButtons {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.question {
+  width: 100%;
+  padding: 20px;
+}
+.questionHome {
+  width: 50%;
+  height: 100vh;
+  margin: auto;
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
