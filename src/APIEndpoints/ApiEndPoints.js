@@ -1,4 +1,5 @@
 let baseUrl = ''
+console.log("F-1",process.env )
 if(process.env.environment === 'production')
 baseUrl = 'https://quizapp-backend-pg.herokuapp.com/api/';
 else
